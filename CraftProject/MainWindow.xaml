@@ -1,0 +1,17 @@
+﻿<Window x:Class="CraftProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CraftProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Loaded="Grid_Loaded">
+        <TextBlock x:Name="Inventory" HorizontalAlignment="Left" Margin="552,49,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="273" Width="230" Background="Black" Foreground="White"/>
+        <Label x:Name="Lbl_Inventory" Content="Current Inventory" HorizontalAlignment="Left" Margin="552,22,0,0" VerticalAlignment="Top" Width="230" FontSize="16" FontWeight="Bold" FontFamily="Arial Black"/>
+        <Button x:Name="InputButton" Content="Submit" HorizontalAlignment="Left" Margin="155,0,0,0" VerticalAlignment="Center" Width="75" Click="InputButton_Click"/>
+        <TextBlock x:Name="Introduction" HorizontalAlignment="Left" Margin="18,22,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="181" Width="234"/>
+        <TextBox x:Name="PlayerInput" HorizontalAlignment="Left" Margin="18,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+
+    </Grid>
+</Window>
