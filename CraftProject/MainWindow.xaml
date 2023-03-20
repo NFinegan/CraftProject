@@ -12,6 +12,8 @@
         <Button x:Name="InputButton" Content="Submit" HorizontalAlignment="Left" Margin="155,0,0,0" VerticalAlignment="Center" Width="75" Click="InputButton_Click"/>
         <TextBlock x:Name="Introduction" HorizontalAlignment="Left" Margin="18,22,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="181" Width="234"/>
         <TextBox x:Name="PlayerInput" HorizontalAlignment="Left" Margin="18,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+        <TextBox x:Name="CraftInput" HorizontalAlignment="Left" Margin="18,241,0,0" TextWrapping="Wrap" Text="Type in a recipe here..." VerticalAlignment="Top" Width="120" FontSize="11"/>
+        <Button x:Name="CraftButton" Content="Craft" HorizontalAlignment="Left" Margin="155,241,0,0" VerticalAlignment="Top" Width="75" Click="CraftButton_Click"/>
 
     </Grid>
 </Window>

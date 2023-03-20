@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -41,9 +42,14 @@ namespace CraftProject
                 Introduction.Text = $"Nice to meet you, {PlayerInput.Name}";
             }
             else
-            {
+            {  
                 Introduction.Text = "Please enter a name!";
             }
+        }
+
+        private void CraftButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
